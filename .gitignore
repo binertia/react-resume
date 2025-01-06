@@ -21,4 +21,6 @@ package-lock.json
 
 **.env.**
 *.log
+*.logs
 *.bak
+npm-debug.log*
