@@ -25,6 +25,7 @@ interface RegionalBloc {
   name: string
 }
 
+// usage: use as prop for Country components
 export default interface CountryData {
   name: string,
   topLevelDomain: string[],
@@ -51,3 +52,6 @@ export default interface CountryData {
   cioc: string,
   independent: boolean
 }
+
+// usage: strict type for translates key
+export type LangTranslate = "br" | "pt" | "nl" | "hr" | "fa" | "de" | "es" | "fr" | "ja" | "it" | "hu";
